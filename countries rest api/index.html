@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/14649acdd4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Day 26 | Mini Project</title>
+</head>
+<body>
+    <header class="grid-div">
+        <div class="bg-image"></div>
+        <h1 class="main-title">WORLD COUNTRIES LIST</h1>
+        <div class="buttons-box">
+            <button class="search-button" id="search-by-starting-letter">STARTING WORD</button>
+            <button class="search-button" id="search-with-any-word">SEARCH WITH ANY WORD</button>
+        </div>
+        <div class="search-box">
+            <input type="search" name="search" id="search">
+            <a><i class="fa fa-search"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="sort-buttons flex-div">
+                <button class="sort-name-button" id="sort-name">
+                    <p id="arrow-name">↑</p>
+                    <p>Name</p>
+                </button>
+                <button class="sort-capital-button" id="sort-capital">
+                    <p id="arrow-capital">↑</p>
+                    <p>Capital</p>
+                </button>
+                <button class="sort-population-button" id="sort-population">
+                    <p id="arrow-population">↑</p>
+                    <p>Population</p>
+                </button>
+                <button class="sort-area-button" id="sort-area">
+                    <p id="arrow-area">↑</p>
+                    <p>Area</p>
+                </button>
+            </div>
+            <ul class="countries-list flex-div"></ul>
+        </div>
+    </main>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

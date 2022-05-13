@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-div{
+    display: flex;
+}
+
+.grid-div{
+    display: grid;
+}
+
+button{
+    cursor: pointer;
+}
+
+header{
+    justify-items: center;
+    align-content: center;
+    box-shadow: 0 1px 1px 1px rgba(199, 199, 199, 0.8);
+    padding: 0 2%;
+    background-color:  rgba(236, 236, 236, 0.4);
+}
+
+.main-title{
+    margin: 10px 0;
+    color: rgb(120, 45, 190);
+}
+.buttons-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.search-button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(120, 45, 190);
+    border: 0;
+    box-shadow: 0 2px 2px 2px rgba(149, 148, 148, 0.3);
+    color: white;
+    border-radius: 20px;
+}
+
+.sort-buttons{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sort-buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(120, 45, 190);
+    border: 0;
+    box-shadow: 0 2px 2px 2px rgba(149, 148, 148, 0.3);
+    color: white;
+    border-radius: 20px;
+}
+
+.search-box{
+    margin: 30px 0;
+    background-color: white;
+}
+
+input{
+    height: 40px;
+    width: 280px;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+a{
+    margin-right: 5px;
+    color: rgb(120, 45, 190);
+}
+
+.wrapper{
+    margin: 0 2%;
+}
+
+.countries-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.country-box{
+    margin: 25px 0;
+    width: 250px;
+    height: 380px;
+    padding: 15px;
+    justify-items: center;
+    align-items: start;
+    box-shadow: 0 3px 10px  rgba(125, 125, 125, 0.6);
+    background-color:  rgba(236, 236, 236, 0.4);
+}
+
+.country-box:hover {
+    box-shadow: 0 3px 10px  rgb(120, 45, 190, 0.4);
+}
+
+.flag{
+    width: 75%;
+    box-shadow: 0 3px 10px  rgba(125, 125, 125, 0.4);
+}
+
+.country-name{
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 10px;
+}
+
+.information-box p{
+    margin-top: 3px;
+    text-align: left;
+}
+
+.information-box{
+    justify-items: baseline;
+}

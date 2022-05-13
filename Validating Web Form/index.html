@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validating Web Form</title>
+</head>
+<body>
+    <section>
+        <form class="form" id="form">
+
+            <h2 class="form-title">Validating Web Form</h2>
+
+            <label for="first-name" class="input-title">First Name</label>
+            <input type="text" name="first-name" id="first-name" autocomplete="off">
+            <p id="first-name-rule" class="input-rule"></p>
+
+            <label for="last-name" class="input-title">Last Name</label>
+            <input type="text" name="last-name" id="last-name" autocomplete="off">
+            <p id="last-name-rule" class="input-rule"></p>
+
+            <label for="age" class="input-title">Age</label>
+            <input type="text" name="age" id="age" autocomplete="off">
+            <p id="age-rule" class="input-rule"></p>
+
+            <label for="email" class="input-title">E-mail</label>
+            <input type="email" name="email" id="email" autocomplete="off">
+            <p id="email-rule" class="input-rule"></p>
+
+            <label for="password" class="input-title">Password</label>
+            <input type="password" name="password" id="password" autocomplete="off">
+            <p id="password-rule" class="input-rule"></p>
+
+            <label for="phone-number" class="input-title">Phone Number</label>
+            <input type="tel" name="phone-number" id="phone-number" autocomplete="off">
+            <p id="phone-number-rule" class="input-rule"></p>
+
+            <label for="message" class="input-title">Message</label>
+            <textarea name="message" id="message" cols="50"></textarea>
+            <p id="message-rule" class="input-rule"></p>
+
+            <button class="submit-button" id="submit-button" >Submit</button>
+            <p class="submit-result" id="submit-result"></p>
+
+        </form>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

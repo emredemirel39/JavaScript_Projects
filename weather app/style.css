@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(19, 79, 151),#002a3e);
+    height: 100vh;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.app-title{
+    margin-bottom: 10px;
+    color: rgb(230, 230, 230);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    margin-bottom: 14px;
+    padding: 4px 12px;
+    width: 20rem;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 0px 3px rgba(65, 65, 65, 0.88);
+}
+
+
+input{
+    border: none;
+    outline: none;
+    background-color: transparent ;
+    width: 100%;
+    height: 2rem;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+button{
+    width: 120px;
+    height: 25px;
+    border: solid 1px rgb(230, 230, 230);
+    color: rgb(230, 230, 230);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    box-shadow: 0 0px 3px rgba(65, 65, 65, 0.88);
+    background-color: rgba(240, 248, 255, 0.1);
+    border-radius: 18px;
+    height: 34px;
+}
+
+.weather-info{
+    width: 30rem;
+    height: 200px;
+}
+
+.weather-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.15);
+    box-shadow: 0 0px 3px rgb(230, 230, 230);
+    color: rgb(230, 230, 230);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-radius: 18px;
+}
+
+.temp-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-info .desc{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .weather-info{
+        width: 20rem;
+    }
+
+    .weather-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .weather-info .desc{
+        text-align: center;
+        margin-top: 14px;
+    }
+}

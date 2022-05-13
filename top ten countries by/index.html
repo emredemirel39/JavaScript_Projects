@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Day 25 | World Countries Data Visualization</title>
+</head>
+<body>
+    <header class="grid-div">
+        <h1 class="header-title">World Countries Data</h1>
+        <h3 class="header-subtitle">Currently we have <span id="total-countries"></span> countries</h3>
+    </header>
+    <main>
+		<div class="wrapper grid-div">
+			<div class="graph-buttons flex-div">
+				<button class="population">Population</button>
+				<button class="languages">Languages</button>
+			</div>
+			<h3 class="graph-description"></h4>
+			<div class="graphs">
+				<div class="graph-wrapper grid-div" id="stat"></div>
+			</div>
+		</div>
+	</main>
+
+
+    <script src="./scripts/main.js" type="module"></script>
+</body>
+</html>

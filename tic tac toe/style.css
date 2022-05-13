@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(3, 3, 87), rgb(7, 7, 77) ,rgb(6, 6, 102));
+}
+
+.players-info{
+    display: flex;
+    justify-content: space-around;
+    gap: 12rem;
+    margin-bottom: 5rem;
+}
+
+.player-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: rgb(166, 195, 222);
+}
+
+.container{
+    width: fit-content;
+    background-color: rgb(33, 33, 33);
+}
+
+.game{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.block{
+    width: 140px;
+    height: 120px;
+    background-color: rgb(166, 195, 222);
+    cursor: pointer;
+    color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.messages{
+    margin-top: 4rem;
+    color: rgb(166, 195, 222);
+}
+
+.restart-box{
+    width: 120px;
+    height: 40px;
+}
+
+.play-again{
+    display: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(166, 195, 222);
+    font-size: 18px;
+    cursor: pointer;
+}

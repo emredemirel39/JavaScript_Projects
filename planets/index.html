@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Solar System</title>
+</head>
+<body>
+    <header class="flex-div">
+        <h1>Calculate a weight of an object on a planet</h1>
+        <input type="text" id="mass" placeholder="Mass in Kilogram" />
+        <select id="list">
+            <option value='none'>--select planet--</option>
+        </select>
+        <button id="calculate-button">Calculate weight</button>
+    </header>
+     <main class="grid-div">   
+        <div class="container flex-div">
+            <div class="item-box">
+                <img id="planet-image" src='./images/earth.png' class="planet-image" />
+            </div>
+            <div class="description grid-div">
+                <h1>Please enter a value in the box above to get started</h1>
+            </div>
+        </div>
+    </main>
+
+
+
+	<script src="./scripts/planets_data.js" type="module"></script>
+	<script src="./scripts/main.js" type="module"></script>
+</body>
+</html>

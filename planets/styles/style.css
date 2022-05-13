@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-image: url('../images/galaxy.gif');
+}
+
+.flex-div{
+    display: flex;
+}
+
+.grid-div{
+    display: grid;
+    justify-items: center;
+}
+
+header{
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+input{
+    width: 260px;
+    height: 42px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0;
+    outline: none;
+}
+
+select{
+    width: 200px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button{
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container{
+    margin-top: 32px;
+    background-color: rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 550px;
+    gap: 80px;
+}
+
+.description{
+    background-color: inherit;
+    width: 550px;
+    height: 300px;
+    padding: 0px 15px;    
+}
+
+.description h1{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.weight-result{
+    margin-top: -50px;
+    color: rgb(71, 11, 71) !important;
+    font-size: 80px !important;
+}

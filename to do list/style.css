@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 2%;
+    background: linear-gradient(45deg, rgba(95, 36, 177, 0.9), rgba(71, 23, 138, 0.9));
+}
+
+.todo-form, .todo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    padding: 0 1rem;
+}
+
+.form-title{
+    color: white;
+}
+
+.form-elements, .todo, .completed-todo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+    border: solid gray 1px;
+}
+
+.form-elements input, .todo li, .completed-todo li{
+    width: 100%;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.add-button, .todo button, .completed-todo button{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-button i{
+    color: green;
+}
+
+.todo-container{
+    padding-top: 2rem !important;
+}
+
+.todo-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+.fa-x{
+    color: red;
+}
+
+.fa-check{
+    color: green;
+}
+
+.completed-icons{
+    color: gray !important;
+}
+
+.completed-todo{
+    background-color: rgb(219, 219, 219) !important;
+    text-decoration: line-through !important;
+}
+
